@@ -2,7 +2,7 @@
 
 📘 sql_cheatsheet
 
-# 💡 SQL & Data Engineering Concepts Cheat Sheet for Interview
+# 💡 SQL & Data Engineering Concepts
 
 ## 🔄 SQL Language Categories
 
