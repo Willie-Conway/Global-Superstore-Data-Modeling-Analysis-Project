@@ -1,8 +1,6 @@
-Here’s a clean and professional Markdown file you can use as a memory aid for interviews, especially for SQL, DML, and data engineering concepts:
 
-⸻
 
-📘 sql_interview_cheatsheet.md
+📘 sql_cheatsheet
 
 # 💡 SQL & Data Engineering Concepts Cheat Sheet for Interview
 
