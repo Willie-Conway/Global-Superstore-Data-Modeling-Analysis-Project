@@ -62,8 +62,8 @@ To facilitate efficient querying and analysis, I implemented a **Star Schema** f
 
 This schema allowed for efficient aggregation and analysis, particularly focused on sales performance by **Product**, **Location**, and **Time**.
 
-#### Star Schema Diagram Example:
-*Include a diagram of your star schema* 🌟
+#### Star Schema Diagram Example🌟:
+![Star Schema](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/2b678605cf36461f2b8e92a4d25d9c09748973cf/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Star%20Schema%20Diagram.png)
 
 ---
 
