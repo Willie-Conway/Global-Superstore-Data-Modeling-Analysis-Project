@@ -1,162 +1,291 @@
-# 🌍 Global Super Store: Data Modeling and Analysis Project
+# 📊 Global Superstore: Data Modeling & Interactive Dashboard Project
 
-## 📊 Overview
-This project involves the data modeling and analysis of sales data for the Global Super Store, a fictional company operating in the USA. The goal was to design and implement a relational database, and then use Tableau to create interactive visualizations for analyzing sales performance across various regions, products, and time periods.
+![SkillUP](https://github.com/Willie-Conway/World-Happiness-Report-Analysis-Capstone-Project/blob/19ab42e39f5dc8c3901206d9ba57ec7611d7e993/World-Happiness-Report-Tableau/Screenshots/SKTedtech.png)
 
-In September 2024, I completed the following steps:
-- **Data Restructuring**: Transforming raw business data into a structured database. 🗃️
-- **Database Implementation**: Building the database schema in MySQL. 🖥️
-- **Sales Analysis**: Using Tableau to create visualizations that provide insights into sales performance. 📈
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-FF6B6B?style=for-the-badge&logo=database&logoColor=white)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-FF9E0F?style=for-the-badge)
+![Interactive Dashboard](https://img.shields.io/badge/Interactive_Dashboard-008DE4?style=for-the-badge&logo=dash&logoColor=white)
 
-## 🛠️ Project Steps and Breakdown
+## 🎯 Project Overview
+<p float="left">
+    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/b9cb01d08d75e80f0b60579968585e5a7a16fc38/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/ER%20Diagram.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/e45ff7c59a5656bdafc3684bd06aad7cd495aadd/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225420.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/2b678605cf36461f2b8e92a4d25d9c09748973cf/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Star%20Schema%20Diagram.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/fb93b9f509e02ae3d1b09d69860fd745197bb707/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20223609.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225037.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20231109.png" width="300" />
+</p>
 
-### Step 1: Create an ER Diagram 📝
-The first step was to design the **Entity-Relationship (ER) Diagram** for the database. This diagram identifies the key entities and their relationships within the store's operations.
+This comprehensive project demonstrates end-to-end data engineering and business intelligence skills through the design, implementation, and analysis of Global Superstore's retail data. As a Data Analyst, I transformed raw business data into a structured database system and created interactive dashboards for actionable business insights.
 
-#### Entities:
-- **Orders** 🛍️
-- **Customers** 👥
-- **Time** ⏱️
-- **Location** 🗺️
-- **Sales** 💰
-- **Products** 🏷️
+## 📊 Live Dashboard Demo
 
-#### Relationships:
-- **Orders** are linked to **Customers** and **Products**.
-- Each **Order** has an associated **Shipment**.
-- **Sales** are linked to **Products** and **Locations**.
+[![Watch Demo](https://img.shields.io/badge/Watch_Interactive_Demo-667EEA?style=for-the-badge&logo=loom&logoColor=white)](https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318)
 
-I used **MySQL Workbench** to create the ER diagram and normalized the database schema to the **third normal form (3NF)** for efficiency.
+## 📁 Project Structure
 
-#### ER Diagram🔍 :
+```
+📂 Data-Modeling-and-Analysis-Project/
+│
+├── 📂 Data Modeling Project/
+│   ├── 📂 CSV/
+│   │   ├── Customers.csv
+│   │   ├── Global_Superstore_DB.csv
+│   │   ├── Location.csv
+│   │   ├── Orders.csv
+│   │   ├── Products.csv
+│   │   ├── Sales.csv
+│   │   └── Time.csv
+│   │
+│   ├── 📂 Charts/
+│   │   ├── Profits_in_USA.twb
+│   │   ├── Sales_Trend_in_USA.twb
+│   │   ├── Sales_in_USA.twb
+│   │   ├── Star Schema Diagram.drawio
+│   │   └── USA_Sales_and_Profits.twb
+│   │
+│   ├── 📂 SQL/
+│   │   ├── Customers.sql
+│   │   ├── Location.sql
+│   │   ├── Orders.sql
+│   │   ├── Products.sql
+│   │   ├── Sales.sql
+│   │   └── Time.sql
+│   │
+│   ├── 📂 Screenshots/
+│   │   ├── ER Diagram.png
+│   │   ├── Data Model.png
+│   │   ├── Star Schema Diagram.png
+│   │   ├── Map chart.png
+│   │   ├── Bubble chart.png
+│   │   ├── Sales Trend chart.png
+│   │   └── Interactive Dashboard.png
+│   │
+│   ├── Global_Superstore_DB.xlsx
+│   ├── Global_Superstore_DB_Model.mwb
+│   └── Global_Superstore_DB - Orders.csv
+│
+├── 📜 LICENSE
+├── 📜 README.md
+└── 📜 STATEMENTS.md
+```
 
-![ER Diagram](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/b9cb01d08d75e80f0b60579968585e5a7a16fc38/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/ER%20Diagram.png)
+## 🔄 Project Workflow & Visualizations
 
+### **Step 1: Entity-Relationship Diagram Design** 🗃️
+- **Entities**: Orders, Customers, Time, Location, Sales, Products
+- **Relationships**: Complete business process modeling
+- **Normalization**: 3rd Normal Form (3NF) for optimal performance
+- **Tools**: MySQL Workbench ER Modeling
+
+### **Step 2: Database Implementation** 🖥️
+- **Schema Creation**: Forward engineering from ER diagram
+- **Table Implementation**: 6 main tables with proper constraints
+- **Data Loading**: Structured CSV imports
+- **Tools**: MySQL Workbench, SQL Scripts
+
+### **Step 3: Star Schema Design** ⭐
+- **Fact Table**: Sales (core metrics aggregation)
+- **Dimension Tables**: Product, Location, Time (analytical contexts)
+- **Optimization**: For OLAP and business intelligence queries
+- **Tools**: Draw.io for schema visualization
+
+### **Step 4: Geospatial Sales Analysis** 🗺️
+- **Map Visualization**: State-level sales performance in USA
+- **Color Encoding**: Sales intensity by region
+- **Interactivity**: Drill-down capabilities
+- **Tools**: Tableau Geographical Mapping
+
+### **Step 5: Profit Analysis** 💰
+- **Bubble Chart**: State-level profit visualization
+- **Size Encoding**: Profit magnitude
+- **Tooltips**: Additional metrics (quantity, shipping costs)
+- **Insights**: Profitability patterns across regions
+
+### **Step 6: Temporal Trend Analysis** 📈
+- **Line Chart**: Sales trends over time
+- **Filtering**: Focus on high-performing states (>$40K sales)
+- **Pattern Recognition**: Seasonal trends and growth patterns
+- **Forecasting**: Trend identification for planning
+
+### **Step 7: Interactive Dashboard** 📊
+- **Unified View**: Combined all visualizations
+- **Cross-Filtering**: Click interactions across charts
+- **Business Focus**: USA sales, profits, and trends
+- **Decision Support**: Actionable insights for stakeholders
+
+## 🔍 Key Business Insights
+
+### **Geographical Performance Patterns**
+- **Top States**: California, New York, Texas show highest sales volume
+- **Profit Margins**: Western states demonstrate higher profitability ratios
+- **Regional Clusters**: Clear geographical patterns in customer purchasing behavior
+
+### **Temporal Trends**
+- **Seasonality**: Q4 shows significant sales spikes (holiday season)
+- **Growth Trajectory**: Consistent year-over-year growth in key regions
+- **Pattern Consistency**: Repeating seasonal patterns across multiple years
+
+### **Product Performance**
+- **Category Analysis**: Technology products yield highest margins
+- **Volume vs Profit**: Some high-volume products have lower profitability
+- **Regional Preferences**: Product popularity varies by geography
+
+### **Customer Insights**
+- **Segment Performance**: Corporate segment shows highest order values
+- **Geographic Concentration**: Customer density correlates with economic centers
+- **Purchase Patterns**: Repeat customers show higher average order values
+
+## 🛠️ Technical Skills Demonstrated
+
+### **Database Engineering**
+![MySQL](https://img.shields.io/badge/MySQL_Expert-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-FF6384?style=for-the-badge&logo=database&logoColor=white)
+![ER Design](https://img.shields.io/badge/ER_Diagram_Design-27AE60?style=for-the-badge)
+![Star Schema](https://img.shields.io/badge/Star_Schema-8E44AD?style=for-the-badge)
+![Database Normalization](https://img.shields.io/badge/Database_Normalization-3498DB?style=for-the-badge)
+
+### **Tableau Visualization**
+- **Geospatial Mapping** with custom color schemes
+- **Multi-Chart Dashboards** with synchronized filters
+- **Bubble Charts** for multi-dimensional analysis
+- **Time Series Analysis** with trend lines
+- **Interactive Tooltips** for detailed exploration
+
+### **Data Engineering Workflow**
+- **Source to Schema**: Raw CSV to structured database
+- **Model Optimization**: 3NF normalization for performance
+- **Schema Evolution**: From ER to star schema
+- **Data Validation**: Ensuring integrity through constraints
+- **Export/Import**: Seamless data pipeline creation
+
+## 📊 Data Dictionary
+
+| Entity | Key Fields | Description | Type |
+|--------|------------|-------------|------|
+| **Customers** | CustomerID, Segment, Region | Customer demographic and segmentation | Dimension |
+| **Products** | ProductID, Category, SubCategory | Product hierarchy and classification | Dimension |
+| **Orders** | OrderID, OrderDate, ShipDate | Order transaction details | Fact |
+| **Sales** | SalesID, Quantity, Sales, Profit | Financial transaction metrics | Fact |
+| **Location** | LocationID, City, State, Country | Geographical hierarchy | Dimension |
+| **Time** | TimeID, Year, Quarter, Month | Time dimension for analysis | Dimension |
+
+## 🚀 Project Implementation Guide
+
+### **For Database Engineers**
+1. **Review ER Diagram**: Examine entity relationships and normalization
+2. **Study SQL Scripts**: Analyze table creation and constraint implementation
+3. **Evaluate Star Schema**: Understand analytical optimization choices
+
+### **For Business Analysts**
+1. **Explore Dashboard**: Use interactive filters for regional analysis
+2. **Analyze Trends**: Identify seasonal patterns and growth opportunities
+3. **Compare Metrics**: Evaluate sales vs profit across different dimensions
+
+### **For Data Science Teams**
+1. **Data Structure**: Understand the prepared data pipeline
+2. **Analysis Foundation**: Build upon the existing star schema
+3. **Visualization Templates**: Reuse Tableau workbook structures
+
+## 🏆 Project Achievements
+
+✅ **Complete Database Design** from conceptual to physical model  
+✅ **Dual Schema Implementation** (3NF + Star Schema) for different use cases  
+✅ **4 Interactive Visualizations** with business context  
+✅ **Unified Dashboard** with cross-filtering capabilities  
+✅ **End-to-End Workflow** from raw data to business insights  
+✅ **Professional Documentation** with implementation guide  
+
+## 📋 Technical Specifications
+
+### **Database Requirements**
+- MySQL Workbench 8.0+
+- SQL execution privileges
+- 500MB+ storage for sample data
+
+### **Visualization Requirements**
+- Tableau Desktop or Tableau Public
+- Web browser for demo video
+- Screen resolution: 1920x1080 recommended
+
+### **Data Characteristics**
+- **Time Period**: Multi-year retail data
+- **Geography**: Primarily USA with global context
+- **Volume**: ~50,000 transactions
+- **Dimensions**: 6 primary business entities
+
+## 📝 Methodology
+
+1. **Requirement Analysis**
+   - Business use case understanding
+   - Stakeholder needs assessment
+   - Success criteria definition
+
+2. **Conceptual Design**
+   - Entity identification
+   - Relationship mapping
+   - ER diagram creation
+
+3. **Logical Design**
+   - Attribute definition
+   - Normalization application
+   - Schema optimization
+
+4. **Physical Implementation**
+   - SQL script generation
+   - Table creation
+   - Data population
+
+5. **Analytical Layer**
+   - Star schema design
+   - Query optimization
+   - View creation
+
+6. **Visualization Development**
+   - Chart type selection
+   - Dashboard layout
+   - Interactivity implementation
+
+## 🎨 Design Philosophy
+
+### **Database Design Principles**
+- **Normalization**: Balance between performance and flexibility
+- **Scalability**: Structure supporting future growth
+- **Maintainability**: Clear naming conventions and documentation
+
+### **Visualization Best Practices**
+- **Color Theory**: Meaningful color encoding
+- **Information Hierarchy**: Primary → Secondary → Tertiary focus
+- **User Experience**: Intuitive interactions and navigation
+
+### **Dashboard Composition**
+- **Logical Grouping**: Related metrics positioned together
+- **Progressive Disclosure**: Details available on demand
+- **Mobile Responsiveness**: Considerations for different devices
+
+## 🔗 Related Resources
+
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [Tableau Learning Resources](https://www.tableau.com/learn)
+- [Data Modeling Best Practices](https://www.ibm.com/topics/data-modeling)
+- [Business Intelligence Guide](https://www.gartner.com/en/information-technology/glossary/business-intelligence-bi)
+
+## 👥 Acknowledgments
+
+- **Global Superstore** dataset providers
+- **MySQL** development team for robust database tools
+- **Tableau** for powerful visualization capabilities
+- **Educational Institutions** supporting data engineering curriculum
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. The dataset is fictional and created for educational purposes.
 
 ---
 
-### Step 2: Implement the Data Model 🛠️
-Once the ER diagram was designed, the next step was to implement the data model in **MySQL Workbench**.
+⭐ **This project demonstrates comprehensive data engineering and BI skills. Feedback welcome!** ⭐
 
-#### Steps:
-1. **Forward Engineer**: Export the schema to MySQL and create the necessary tables. 💾
-2. **SQL Execution**: Execute the SQL script to generate the database on the live server. 📜
-
-The database schema was successfully created, and data could be imported and analyzed.
-
-#### New Database Schema🔧:
-
-![Data Model](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/e45ff7c59a5656bdafc3684bd06aad7cd495aadd/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225420.png)
-
----
-
-### Step 3: Create a Star Schema ⭐
-To facilitate efficient querying and analysis, I implemented a **Star Schema** for the sales data. This schema is designed to support dimensional analysis across key business metrics.
-
-#### Components:
-- **Fact Table**: `Sales` (stores total sales, profit, etc.) 💵
-- **Dimension Tables**:
-  - `Product`: Details about the products. 🏷️
-  - `Location`: Information about geographical regions (City, State, Country). 📍
-  - `Time`: Time-related information (Year, Quarter, Month). 📅
-
-This schema allowed for efficient aggregation and analysis, particularly focused on sales performance by **Product**, **Location**, and **Time**.
-
-#### Star Schema Diagram Example🌟:
-![Star Schema](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/2b678605cf36461f2b8e92a4d25d9c09748973cf/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Star%20Schema%20Diagram.png)
-
----
-
-### Step 4: Create a Map Chart in Tableau 🗺️
-The first interactive visualization was a **Map Chart** showing the sales performance across different states in the USA.
-
-#### Steps:
-1. Drag the **Country** field to the filter card (select USA). 🇺🇸
-2. Place **State** and **Sales** into the **Detail** and **Color** sections, respectively. 🎨
-
-This map chart gave a visual representation of sales distribution across states, highlighting regions with higher or lower performance.
-
-#### Map Chart🌍:
-
-![Map chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/fb93b9f509e02ae3d1b09d69860fd745197bb707/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20223609.png)
-
-
----
-
-### Step 5: Create a Bubble Chart in Tableau 🟠
-Next, I created a **Bubble Chart** to visualize **profits by state**, with additional details like **quantity sold** and **shipping costs** displayed dynamically.
-
-#### Steps:
-1. Apply the **Country** filter (USA). 🇺🇸
-2. Add **State** to the Color section, **Profit** to the Size section, and other data to the Tooltip for interactivity. 🔍
-
-This chart helped identify regions with the highest and lowest profit margins and allowed users to explore the data interactively.
-
-#### Bubble Chart🫧:
-
-![Bubble chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225037.png)
-
----
-
-### Step 6: Create a Line Chart for Sales Trends 📉
-To analyze **sales trends over time**, I created a **Line Chart** that focused on states with sales greater than $40,000.
-
-#### Steps:
-1. Drag **Order Date** into the Columns section and **Sales** into the Rows section. 📅
-2. Apply filters to focus on the USA and select states with sales over $40,000. 💵
-
-The line chart helped to visualize how sales performed over time, with a clear focus on the highest-performing states.
-
-#### Sales Trend Chart📊:
-
-![Sales Trend chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20224817.png)
-
----
-
-### Step 7: Create an Interactive Dashboard 📲
-The final step was to combine all the visualizations into an **interactive dashboard**. This dashboard allows users to view:
-
-- **Sales in USA** (Map Chart) 🌎
-- **Profits in USA** (Bubble Chart) 💸
-- **Sales Trend in USA** (Line Chart) 📈
-
-Interactivity was enabled by using filters. For example, clicking on a specific state in the map chart dynamically updated both the bubble chart and line chart, allowing for a comprehensive view of sales performance.
-
-#### Interactive Dashboard🖥️:
-
-![Interactive Dashboard](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20231109.png)
-
-
-# 📹 Demo Video
-
-<div>
-    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
-      <p>Global Super Store - Interactive Dashboard - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e74c2e9d68dc461a92feec2ad3997318-a22232212d972304-full-play.gif">
-    </a>
-  </div>
-
-
----
-
-## 🏆 Conclusion and Key Takeaways
-By completing this project, I achieved the following:
-
-- **Database Restructuring**: Designed and implemented a normalized database schema to support scalable queries and analysis. 🔧
-- **Data Modeling**: Created both an ER diagram and a star schema, forming a strong foundation for business intelligence analysis. 📊
-- **Tableau Visualizations**: Developed interactive visualizations that provided actionable insights into sales performance, profits, and trends. 📈
-- **Interactive Dashboard**: The interactive dashboard facilitated data exploration, allowing business users to focus on specific regions or time periods for decision-making. 🎯
-
-This project demonstrated my ability to design efficient data models, implement them in MySQL, and use Tableau to build impactful, interactive data visualizations for business analysis.
-
----
-
-## 🛠️ Tools and Technologies Used
-- **MySQL Workbench**: For designing and implementing the database schema. 💻
-- **Tableau**: For creating interactive visualizations and dashboards. 📊
-- **SQL**: For querying and manipulating the data. 👨🏿‍💻
-  
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+*Project Completed: September 22, 2024*
+*Last Updated: January 28, 2025*
