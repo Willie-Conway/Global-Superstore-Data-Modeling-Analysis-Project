@@ -1,6 +1,6 @@
 # 📊 Global Superstore: Data Modeling & Interactive Dashboard Project
 
-![SkillUP](https://github.com/Willie-Conway/World-Happiness-Report-Analysis-Capstone-Project/blob/19ab42e39f5dc8c3901206d9ba57ec7611d7e993/World-Happiness-Report-Tableau/Screenshots/SKTedtech.png)
+![Meta](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/d97bce7e69b63472cb74cc3985f4dce93fe4a2b3/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Meta.jpg)
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
@@ -22,7 +22,7 @@ This comprehensive project demonstrates end-to-end data engineering and business
 
 ## 📊 Live Dashboard Demo
 
-[![Watch Demo](https://img.shields.io/badge/Watch_Interactive_Demo-667EEA?style=for-the-badge&logo=loom&logoColor=white)](https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318)
+[![View Dashboard](https://img.shields.io/badge/Watch_Interactive_Demo-667EEA?style=for-the-badge&logo=loom&logoColor=white)](https://public.tableau.com/app/profile/willie.conway2396/viz/GlobalSuperStore_17308735736410/USASalesandProfits)
 
 ## 📁 Project Structure
 
