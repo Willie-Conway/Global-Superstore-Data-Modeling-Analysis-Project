@@ -145,7 +145,7 @@ This comprehensive project demonstrates end-to-end data engineering and business
 ## 🛠️ Technical Skills Demonstrated
 
 ### **Database Engineering**
-![MySQL](https://img.shields.io/badge/MySQL_Expert-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Data Modeling](https://img.shields.io/badge/Data_Modeling-FF6384?style=for-the-badge&logo=database&logoColor=white)
 ![ER Design](https://img.shields.io/badge/ER_Diagram_Design-27AE60?style=for-the-badge)
 ![Star Schema](https://img.shields.io/badge/Star_Schema-8E44AD?style=for-the-badge)
