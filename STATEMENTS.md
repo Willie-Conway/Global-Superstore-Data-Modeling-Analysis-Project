@@ -1,6 +1,6 @@
 
 
-📘 sql_cheatsheet
+# 📘 TIPS
 
 # 💡 SQL & Data Engineering Concepts
 
