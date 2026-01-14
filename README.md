@@ -1,6 +1,6 @@
 # 📊 Global Superstore: Data Modeling & Interactive Dashboard Project
 
-![Meta](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/d97bce7e69b63472cb74cc3985f4dce93fe4a2b3/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Meta.jpg)
+![Meta](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/0c40850b8f1c4ffef5715397a494032b914d85e3/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Meta-Logo.png)
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
