@@ -28,7 +28,7 @@ This comprehensive project demonstrates end-to-end data engineering and business
 
 ## 📊 Live Dashboard Demo
 
-[![View Dashboard](https://img.shields.io/badge/View_Interactive_Dashboard-667EEA?style=for-the-badge&logo=loom&logoColor=white)](https://public.tableau.com/app/profile/willie.conway2396/viz/GlobalSuperStore_17308735736410/USASalesandProfits) ![Preview](https://img.shields.io/badge/Preview-F97316?style=for-the-badge&logo=tableau&logoColor=white)
+[![View Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-667EEA?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/willie.conway2396/viz/GlobalSuperStore_17308735736410/USASalesandProfits) ![Preview](https://img.shields.io/badge/Preview-F97316?style=for-the-badge&logo=tableau&logoColor=white)
 ![Global-Superstore-Data-Modeling-Analysis-Project](https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/0027ad2fb9a2b13dc070f3cc6531ce1cf9a780bc/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/USA%20Sales%20and%20Profit.gif)
 
 ## 📁 Project Structure
