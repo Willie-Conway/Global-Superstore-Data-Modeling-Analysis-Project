@@ -13,12 +13,12 @@
 
 ## 🎯 Project Overview
 <p float="left">
-    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/b9cb01d08d75e80f0b60579968585e5a7a16fc38/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/ER%20Diagram.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/b6407dbc539e01b84efd39112e01c3ccc3082c06/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Profits%20in%20USA.png" width="300" />
     <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/e45ff7c59a5656bdafc3684bd06aad7cd495aadd/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225420.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis/blob/2b678605cf36461f2b8e92a4d25d9c09748973cf/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Star%20Schema%20Diagram.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/fb93b9f509e02ae3d1b09d69860fd745197bb707/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20223609.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225037.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20231109.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/b6407dbc539e01b84efd39112e01c3ccc3082c06/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Sales%20Trend%20in%20USA.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/b6407dbc539e01b84efd39112e01c3ccc3082c06/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Sales%20in%20USA.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/b6407dbc539e01b84efd39112e01c3ccc3082c06/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/USA%20Sales%20and%20Profits.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/b6407dbc539e01b84efd39112e01c3ccc3082c06/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20230605.png" width="300" />
 </p>
 
 This comprehensive project demonstrates end-to-end data engineering and business intelligence skills through the design, implementation, and analysis of Global Superstore's retail data. As a Data Analyst, I transformed raw business data into a structured database system and created interactive dashboards for actionable business insights.
